@@ -9,9 +9,9 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mixsimulator-fe
 
 Summary: Python application with nevergrad optimization model for calculating and simulating the least cost of an energy Mix under constraints.
 
-Development: https://github.com/facebookresearch/nevergrad
+Development: https://github.com/Foloso/MixSimulator
 
-Documentation: https://facebookresearch.github.io/nevergrad/
+Documentation: https://pypi.org/project/mixsimulator/
 
 Current build status
 ====================

@@ -11,7 +11,7 @@ source:
   sha256: 0990c51202902c5e3a7bfa747b7e5869877738e21306d8e86763d7513214671c
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -33,8 +33,8 @@ about:
   license_file: LICENSE.txt
   license: MIT
   license_family: MIT
-  doc_url: https://facebookresearch.github.io/nevergrad/
-  dev_url: https://github.com/facebookresearch/nevergrad
+  doc_url: https://pypi.org/project/mixsimulator/
+  dev_url: https://github.com/Foloso/MixSimulator
 
 extra:
   recipe-maintainers:
