@@ -1,5 +1,5 @@
 {% set name = "mixsimulator" %}
-{% set version = "0.2.9.5" %}
+{% set version = "0.2.9.9" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mixsimulator-{{ version }}.tar.gz
-  sha256: 0990c51202902c5e3a7bfa747b7e5869877738e21306d8e86763d7513214671c
+  sha256: 13182ea0b87a4844a9fe98b70a2b8cb076ca4a3d5f7b66d8d8df12daf6a7e3db
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
